@@ -11,6 +11,8 @@ app.get("/", async (req, res) => {
     const data = await mymod.find()
     res.send(data)
     console.log(data)
+   res.send("tanjeem")
+   
 })
 
 
